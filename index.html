@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/mentionWiki.css" rel="stylesheet" />
+    <style>
+      .mentionWrapper {
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="men1" class="mentionWrapper">
+      <input class="mentionEdit" />
+      <ul class="mentionPanel"></ul>
+    </div>
+
+    <div id="men2" class="mentionWrapper">
+      <input class="mentionEdit" />
+      <ul class="mentionPanel"></ul>
+    </div>
+
+    <script src="js/mentionWiki.js"></script>
+    <script>
+      var mentionEdit1 = new mentionWiki({
+        selector : "#men1", 
+        wikiUrl : "https://wiki.consid.vn/",
+        startString: '@',
+        endString: '.'
+      });
+
+      var mentionEdit2 = new mentionWiki({
+        selector : "#men2", 
+        wikiUrl : "https://wiki.landev.vn/"
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "awesomplete": "^1.1.5",
+    "localhost": "^0.3.4"
+  }
+}
