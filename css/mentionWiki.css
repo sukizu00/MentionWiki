@@ -1,0 +1,11 @@
+div.mentionPanel{
+    width:100%;
+}
+input.mentionEdit, textarea.mentionEdit{
+    width: 100%;
+}
+
+.mentionWikiHide {
+    display: none;
+}
+
